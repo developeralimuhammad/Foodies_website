@@ -1,0 +1,105 @@
+@media (max-width: 991px) {
+
+    /* custom classes */
+    .text-content {
+        width: 100%;
+    }
+
+    /* navbar-brand */
+    .navigation-wrap {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+
+    .navigation-wrap .navbar-brand img {
+        height: 3.8125rem;
+    }
+
+    /* banner design */
+    .top-banner {
+        padding: 9.375rem 0 9.375rem;
+    }
+
+    .card{
+        padding-top: 39px;
+    }
+
+}
+
+@media (max-width:767px) {
+    h1 {
+        font-size: 2.8rem;
+
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+
+    .top-banner {
+        padding: 10.875rem 0 9.375rem;
+    }
+
+    .top-banner .main-btn {
+        margin-left: 13px;
+    }
+
+    .story-section {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    .story-section .main-btn {
+        margin-left: unset;
+    }
+
+    .newsletter {
+        width: 100%;
+    }
+
+    .newsletter .main-btn {
+        width: 70%;
+        margin-top: 1rem;
+    }
+
+    .newsletter .form-control {
+        margin-left: unset;
+        margin-left: 33px;
+        margin-bottom: 11px;
+
+    }
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.7rem;
+    }
+
+}
+
+@media (max-width:420px) {
+    .white-btn{
+        margin-left: 14px;
+    } 
+        
+    h1{
+        font-size: 2rem;
+    }
+
+    .carosel-caption p{
+        font-size: 1rem;
+        
+
+    }
+
+    .testimonial-section .carousel-item .carosel-caption img{
+        margin-left: 35%;
+    }
+
+    #news-letter .newsletter .row{
+        text-align: center;
+    }
+
+    .newsletter .main-btn {
+        width: 42%;
+      }
+}
